@@ -64,19 +64,19 @@
 
 * **Прокси** (перечень правил для выхода через прокси, пример, как на скриншоте):
 
-domain: youtube.com
-
-ruleset:geoip-ru-blocked
-
-ruleset:geoip-ru-blocked-community
-
-ruleset:geosite-ru-blocked
-
-ruleset:geosite-speedtest
-
-processName:Discord.exe
-
-processName:Updater.exe
+> domain: youtube.com
+> 
+> ruleset:geoip-ru-blocked
+> 
+> ruleset:geoip-ru-blocked-community
+> 
+> ruleset:geosite-ru-blocked
+> 
+> ruleset:geosite-speedtest
+> 
+> processName:Discord.exe
+> 
+> processName:Updater.exe
 
 Эти сайты и процессы будут направлены через прокси-сервер.
 
